@@ -30,7 +30,7 @@ def check_stock(url):
     return False
 
 # Streamlit app
-st.title("Stock Checker")
+st.title("Stock Alert")
 
 url = st.text_input("Enter the product URL:")
 interval = st.number_input("Enter time interval (in seconds):", min_value=5, value=30, step=5)
